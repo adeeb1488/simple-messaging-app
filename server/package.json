@@ -1,0 +1,37 @@
+{
+  "name": "final-project-devlovepers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/final-project-devlovepers.git"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2022/final-project-devlovepers/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/final-project-devlovepers#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "node": "^19.0.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0",
+    "socket.io": "^4.5.4",
+    "stream-chat": "^8.1.1",
+    "stream-chat-react": "^10.4.0",
+    "universal-cookie": "^4.0.4"
+  }
+}
